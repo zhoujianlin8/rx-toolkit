@@ -1,0 +1,125 @@
+{
+  "failured": false,
+  "result": [
+    {
+      "range": 1,
+      "subList": [
+        {
+          "range": 1,
+          "subList": [
+            {
+              "range": 2,
+              "subList": [],
+              "title": "会员卡管理",
+              "url": "http://portal.o2o.daily.taobao.net:8080/card/card.htm#/cardInfo"
+            },
+            {
+              "range": 2,
+              "subList": [],
+              "title": "权益管理",
+              "url": "http://portal.o2o.daily.taobao.net:8080/card/card.htm#/cardGain"
+            },
+            {
+              "range": 3,
+              "subList": [],
+              "title": "会员管理",
+              "url": "http://portal.o2o.daily.taobao.net:8080/card/card.htm#/cardMember"
+            }
+          ],
+          "title": "会员卡",
+          "url": "http://portal.o2o.daily.taobao.net:8080/card/card.htm"
+        }
+      ],
+      "title": "会员",
+      "url": "http://portal.o2o.daily.taobao.net:8080/card/cardTemInfo.htm"
+    },
+    {
+      "range": 2,
+      "subList": [
+        {
+          "range": 1,
+          "subList": [],
+          "title": "优惠券管理",
+          "url": "http://portal.o2o.daily.taobao.net:8080/marketing/coupon.htm#/couponList"
+        },
+        {
+          "range": 2,
+          "subList": [],
+          "title": "优惠券核销",
+          "url": "http://portal.o2o.daily.taobao.net:8080/marketing/coupon.htm#/couponCsm"
+        }
+      ],
+      "title": "营销",
+      "url": "http://portal.o2o.daily.taobao.net:8080/marketing/coupon.htm#/index"
+    },
+    {
+      "range": 4,
+      "subList": [
+        {
+          "range": 1,
+          "subList": [],
+          "title": "门店信息",
+          "url": "http://portal.o2o.daily.taobao.net:8080/mall/mallInfo.htm"
+        },
+        {
+          "range": 2,
+          "subList": [],
+          "title": "二维码",
+          "url": "http://portal.o2o.daily.taobao.net:8080/mall/weitaoQrCode.htm"
+        },
+        {
+          "range": 3,
+          "subList": [],
+          "title": "品牌商信息",
+          "url": "http://portal.o2o.daily.taobao.net:8080/mall/mallMerchant.htm"
+        },
+        {
+          "range": 4,
+          "subList": [],
+          "title": "服务管理",
+          "url": "http://portal.o2o.daily.taobao.net:8080/service/serviceApplyList.htm"
+        }
+      ],
+      "title": "信息",
+      "url": "http://portal.o2o.daily.taobao.net:8080/daogoubao/store.htm"
+    },
+    {
+      "range": 6,
+      "subList": [
+        {
+          "range": 1,
+          "subList": [],
+          "title": "帐号导入",
+          "url": "http://portal.o2o.daily.taobao.net:8080/sales/salesImport.htm"
+        },
+        {
+          "range": 2,
+          "subList": [],
+          "title": "统计",
+          "url": "http://portal.o2o.daily.taobao.net:8080/sales/salesStatistic.htm"
+        },
+        {
+          "range": 3,
+          "subList": [],
+          "title": "门店支付宝帐号",
+          "url": "http://portal.o2o.daily.taobao.net:8080/sales/storeAlipayImport.htm"
+        },
+        {
+          "range": 4,
+          "subList": [],
+          "title": "交易明细",
+          "url": "http://portal.o2o.daily.taobao.net:8080/trade/itemlist/listSoldItems.htm"
+        },
+        {
+          "range": 5,
+          "subList": [],
+          "title": "改价管理",
+          "url": "http://portal.o2o.daily.taobao.net:8080/price/changePrice.htm"
+        }
+      ],
+      "title": "导购员",
+      "url": "http://portal.o2o.daily.taobao.net:8080/sales/salesImport.htm"
+    }
+  ],
+  "success": true
+}
