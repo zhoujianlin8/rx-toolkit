@@ -16,21 +16,21 @@ $ sudo npm install -g rx-toolkit
 
 `````
  mkdir my-new-project && cd $_
- rt init(初始化项目 )
- rt start（开启项目）
- rt build（打包）
- rt test （自行实现）
- rt publish （自行实现）
+ rx init(初始化项目 )
+ rx start（开启项目）
+ rx build（打包）
+ rx test （自行实现）
+ rx publish （自行实现）
 `````
 
 
 ### 命令使用
-* rt start 开启项目
-* rt build 打包项目
-* rt init [url?] 项目初始化 后面参数实现自定义初始化
-* rt data [name][type?] 创建本地mock数据type submit(s)list(l)data(d)
-* rt p [name][type?] 创建页面
-* rt c [name]  创建components
+* rx start 开启项目
+* rx build 打包项目
+* rx init [url?] 项目初始化 后面参数实现自定义初始化
+* rx data [name][type?] 创建本地mock数据type submit(s)list(l)data(d)
+* rx p [name][type?] 创建页面
+* rx c [name]  创建components
 
 
 
@@ -50,7 +50,7 @@ $ sudo npm install -g rx-toolkit
      |-----index.less // 组件入口css文件
      |-----index.xx // 组件入口模板文件
      |-----README.md    // 用于介绍组件文档
-     |-----rt-config.js     //  配置文件
+     |-----rx-config.js     //  配置文件
      |-----package.json     // 模块信息配置
 ```
  打包约定
@@ -88,7 +88,7 @@ $ sudo npm install -g rx-toolkit
      |      |---fonts  //font目录字体copy   
      |      |---static //static目录静态资源copy
      |-----README.md    // 用于介绍项目文档
-     |-----rt-config.js     //  配置文件
+     |-----rx-config.js     //  配置文件
    
 ```
 默认打包约定

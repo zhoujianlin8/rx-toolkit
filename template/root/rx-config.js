@@ -1,6 +1,9 @@
+var pageJson = require('./package.json');
 module.exports = {
+  name: pageJson.name,
+  viser: '@branch@', //设置版本号为当前分支
   options: {
-
+      group: '',
   },
   script: {
     //start

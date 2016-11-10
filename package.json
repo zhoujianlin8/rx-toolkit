@@ -13,7 +13,7 @@
   ],
   "main": "index.js",
   "bin": {
-    "rt": "./bin/rt"
+    "rx": "./bin/rx"
   },
   "engines": {
     "node": ">= 4.x.x"
@@ -60,6 +60,7 @@
     "less-plugin-npm-import": "~2.1.0",
     "minimist": "~1.1.1",
     "open": "0.0.5",
+    "semver": "^5.3.0",
     "serve-index": "^1.6.3",
     "style-loader": "^0.12.3",
     "webpack": "~1.13.2",
@@ -90,5 +91,4 @@
     "tarball": "http://registry.npmjs.org/WRT/-/WRT-0.0.3.tgz"
   },
   "directories": {}
-
 }

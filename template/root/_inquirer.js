@@ -12,8 +12,8 @@ module.exports = {
     },
     {
       type: 'confirm',
-      name: 'isPc',
-      message: 'pc还是mobile默认【pc】',
+      name: 'isWeex',
+      message: '是否运行在weex',
       default: true
     }
   ],

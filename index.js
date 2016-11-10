@@ -9,7 +9,7 @@ var _ = xtUtil.underscore;
 var templatePath = path.join(__dirname, './template');
 var spawn = xtUtil.spawn;
 var rewrite = xtUtil.rewrite;
-var RT  = require('./rt');
+var RT  = require('./lib/rt');
 var abc = RT.config;
 var options = util._extend({
   srcBase: 'src'
@@ -22,7 +22,7 @@ var Tasks = module.exports;
 
 //项目初始化
 Tasks.init = function (str) {
-  if (fs.existsSync(abcPath)) {
+  if (fs.existsSync(RT.configPath)) {
     console.log('该目录下项目已存在初始失败');
     return;
   }
@@ -62,7 +62,7 @@ Tasks.init = function (str) {
         dist: path.join(srcBase,'r','index')
       });
     }else{
-      self.addPage('index');
+      self.p('index');
     }
     xtUtil.tnpmInstall()
   })
@@ -137,7 +137,7 @@ Tasks.start = function(){
 };
 
 Tasks.build = function () {
-  
+  require('./lib/build').apply(null,arguments);
 };
 
 
