@@ -7,30 +7,25 @@
   },
   "description": "rx tookit support web and weex",
   "keyword": [
+    "rx",
+    "weex",
     "react",
-    "koa",
-    "gulp"
+    "koa"
   ],
   "main": "index.js",
   "bin": {
     "rx": "./bin/rx"
   },
   "engines": {
-    "node": ">= 4.x.x"
+    "node": ">= 5.6.0"
   },
   "scripts": {
     "test": "mocha --require should --reporter List --check-leaks test/"
   },
-  "author": [
-    {
-      "name": "mojing",
-      "email": "jianlin.zjl@alibaba-inc.com"
-    },
-    {
-      "name": "zhoujianlin",
-      "email": "jianlin8@gmail.com"
-    }
-  ],
+  "author": {
+    "name": "zhoujianlin",
+    "email": "zhoujianlin8@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "babel-core": "~6.3.26",
@@ -39,13 +34,6 @@
     "ctool-html-compile": "~0.0.7",
     "extract-text-webpack-plugin": "~0.9.1",
     "ginit": "~2.0.1",
-    "gulp": "^3.8.11",
-    "gulp-clean": "~0.3.1",
-    "gulp-clean-css": "~2.0.12",
-    "gulp-less": "~3.0.3",
-    "gulp-rename": "~1.2.2",
-    "gulp-uglify": "~1.2.0",
-    "gulp-util": "~3.0.4",
     "html-list-middleware": "0.0.4",
     "koa": "^0.19.1",
     "koa-data-proxy": "~0.0.5",
@@ -55,9 +43,7 @@
     "koa-static": "^1.4.9",
     "koa-webpack-dev-middleware": "~1.0.0",
     "koa-webpack-hot-middleware": "~1.0.3",
-    "less": "^2.5.1",
     "less-loader": "^2.2.0",
-    "less-plugin-npm-import": "~2.1.0",
     "minimist": "~1.1.1",
     "open": "0.0.5",
     "semver": "^5.3.0",
