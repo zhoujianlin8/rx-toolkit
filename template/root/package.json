@@ -1,15 +1,7 @@
 {
   "name": "<%=appname%>",
-  "main":  "<%if(isSinglePage){%>src/app.js<%}else{%>src/p/index<%}%>",
-  "dependencies": {<%if (isPc){%>
-    "@alife/next": "~0.1.90",
-    "reqwest": "^2.0.5 ",<%}else{%>
-    "@ali/msui": "*",  
-    "@ali/lib-login": "~1.5.0",
-    "@ali/lib-mtop": "~2.0.8",
-    "promise": "~7.0.4",
-      <%}if (isSinglePage){%>
-    "react-router": "~2.0.1",<%}%>
+  "main":  "src/p/index",
+  "dependencies": {
     "react": "~15.2.1",
     "react-dom": "~15.2.1"
   }

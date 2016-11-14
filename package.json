@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:jianlin.zjl/rx-toolkit.git"
+    "url": "git@github.com:zhoujianlin8/rx-toolkit.git"
   },
   "description": "rx tookit support web and weex",
   "keyword": [
@@ -33,7 +33,9 @@
     "css-loader": "^0.23.1",
     "ctool-html-compile": "~0.0.7",
     "extract-text-webpack-plugin": "~0.9.1",
+    "file-loader": "^0.9.0",
     "ginit": "~2.0.1",
+    "happypack": "^2.2.1",
     "html-list-middleware": "0.0.4",
     "koa": "^0.19.1",
     "koa-data-proxy": "~0.0.5",
@@ -45,12 +47,16 @@
     "koa-webpack-hot-middleware": "~1.0.3",
     "less-loader": "^2.2.0",
     "minimist": "~1.1.1",
+    "npm-run-script": "~0.0.4",
     "open": "0.0.5",
+    "rx-css-loader": "^0.1.2",
     "semver": "^5.3.0",
     "serve-index": "^1.6.3",
     "style-loader": "^0.12.3",
+    "url-loader": "^0.5.7",
     "webpack": "~1.13.2",
-    "webpack-stream": "~2.3.0"
+    "webpack-stream": "~2.3.0",
+    "weex-rx-webpack-plugin": "^0.3.1"
   },
   "devDependencies": {
     "mocha": "^2.1.0",

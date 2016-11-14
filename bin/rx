@@ -91,6 +91,7 @@ if(!isLatest){
 if(process.argv.length === 2){
     return RT.spawnExecCli('rx -h');
 }
+
 program.parse(process.argv);
 
 
@@ -113,15 +114,16 @@ function execScript (obj,cb) {
     var cli = obj.cli;
     var args = obj.args || [];
     RT.args = args;
+    process.env.args = args.join(',');
     var cb = cb || function () {};
     var config = RT.config;
     var scripts = config.scripts || {};
     if(cli.indexOf('pre') !== 0 && cli.indexOf('post') !== 0){
-        return execCli('pre'+toUpperCaseOne(cli),function (err) {
+        return execCli('pre'+cli,function (err) {
             if(err) return;
             execCli(cli,function (err1) {
                 if(err1) return;
-                execCli('post'+toUpperCaseOne(cli),function (err2) {
+                execCli('post'+cli,function (err2) {
                     if(err2) return;
                     cb();
                 })
@@ -138,7 +140,7 @@ function execScript (obj,cb) {
         envCli = envCli.split(',');
         var exec = scripts[execCli];
         //命令行
-        if(envCli.indexOf(execCli) === -1 && util.isString(exec)){
+        if(envCli.indexOf(execCli) === -1 && exec && util.isString(exec)){
             envClis();
             RT.spawnExecCli(exec,callback);
             //默认功能直接执行
@@ -168,6 +170,7 @@ function execScript (obj,cb) {
             process.env.clis = envCli.join(',');
         }
     }
+
     function done(fn,callback) {
         RT.doneCallback(fn,RT,callback)
     }

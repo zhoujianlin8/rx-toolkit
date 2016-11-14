@@ -4,6 +4,7 @@ node_modules/
 .travis.yml
 *.swp
 .sass-cache/
+.happypack
 mods/.sass-cache/
 .DS_Store
 .idea
