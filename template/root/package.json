@@ -2,7 +2,11 @@
   "name": "<%=appname%>",
   "main":  "src/p/index",
   "dependencies": {
-    "react": "~15.2.1",
-    "react-dom": "~15.2.1"
+    <%if(isWeex === true){%>
+
+    <%}else{%>
+    "react": "*",
+    "react-dom": "*"
+    <%}%>
   }
 }

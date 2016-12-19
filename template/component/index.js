@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.less';
 class <%=classedName%> extends React.Component {
 	constructor(props, context) {
         super(props, context);

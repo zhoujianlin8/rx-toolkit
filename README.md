@@ -2,7 +2,6 @@
 
 ####主要特点
 
-*  webpack
 
 
 ### 安装
@@ -33,31 +32,6 @@ $ sudo npm install -g rx-toolkit
 * rx c [name]  创建components
 
 
-
-### 组件目录规范
-
-```
-  rx-xxx            // 组件目录名, 小写, 多字符用 – 分隔
-     |------demo     // 用于存放demo的文件夹
-     |      |-----demo-init.js   // 组件demo入口js文件
-     |      |-----demo-init.less  //组件demo入口css文件
-     |      |-----index.html   // 组件demo页面
-     |------lib      // 用于存放组件的子模块
-     |-----data      // 模拟数据文件
-     |-----build    // 用于存放需要cdn发布的文件
-     |-----test     // 单元测试放的目录
-     |-----index.js   // 组件入口js文件
-     |-----index.less // 组件入口css文件
-     |-----index.xx // 组件入口模板文件
-     |-----README.md    // 用于介绍组件文档
-     |-----rx-config.js     //  配置文件
-     |-----package.json     // 模块信息配置
-```
- 打包约定
-
-````
-['demo/*.js','demo/*.less','*.less,*.js']
-````
 
 
 ## 项目目录规范
@@ -94,7 +68,7 @@ $ sudo npm install -g rx-toolkit
 默认打包约定
 
 ````
-['src/p/*/index.js','src/images/**','src/fonts/**','src/static/**','src/minifys/**']
+['src/p/*/index.js','src/images/**','src/fonts/**','src/static/**']
 ````
 
 
