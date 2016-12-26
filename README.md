@@ -1,13 +1,14 @@
-## rx-toolkit 工具
 
-####主要特点
+## rax-toolkit 工具
 
+###说明
+为统一心智rx-tookit 已经废弃请使用 rax-toolkit
 
 
 ### 安装
 
 ```
-$ sudo npm install -g rx-toolkit
+$ sudo npm install -g rax-toolkit
 
 ```
 
@@ -15,21 +16,21 @@ $ sudo npm install -g rx-toolkit
 
 `````
  mkdir my-new-project && cd $_
- rx init(初始化项目 )
- rx start（开启项目）
- rx build（打包）
- rx test （自行实现）
- rx publish （自行实现）
+ rax init(初始化项目 )
+ rax start（开启项目）
+ rax build（打包）
+ rax test （自行实现）
+ rax publish （自行实现）
 `````
 
 
 ### 命令使用
-* rx start 开启项目
-* rx build 打包项目
-* rx init [url?] 项目初始化 后面参数实现自定义初始化
-* rx data [name][type?] 创建本地mock数据type submit(s)list(l)data(d)
-* rx p [name][type?] 创建页面
-* rx c [name]  创建components
+* rax start 开启项目
+* rax build 打包项目
+* rax init [url?] 项目初始化 后面参数实现自定义初始化
+* rax data [name][type?] 创建本地mock数据type submit(s)list(l)data(d)
+* rax p [name][type?] 创建页面
+* rax c [name]  创建components
 
 
 
@@ -62,7 +63,7 @@ $ sudo npm install -g rx-toolkit
      |      |---fonts  //font目录字体copy   
      |      |---static //static目录静态资源copy
      |-----README.md    // 用于介绍项目文档
-     |-----rx-config.js     //  配置文件
+     |-----rax-config.js     //  配置文件
    
 ```
 默认打包约定
